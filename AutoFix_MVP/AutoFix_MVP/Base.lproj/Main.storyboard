@@ -234,7 +234,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="CtR-ld-kd4" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="3YC-mA-0xQ"/>
+                                            <segue destination="CtR-ld-kd4" kind="presentation" identifier="detailSegueID" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="3YC-mA-0xQ"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -312,6 +312,16 @@
                                     <constraint firstAttribute="height" constant="85" id="aXN-KY-Gea"/>
                                 </constraints>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KhA-gM-Ahc">
+                                <rect key="frame" x="16" y="25" width="45" height="35"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.25" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <state key="normal" image="OGbackarrowICON">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="iqx-0T-o05" kind="show" id="13T-Yo-JaM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -327,6 +337,9 @@
                             <constraint firstAttribute="trailing" secondItem="fV1-Lw-Sjg" secondAttribute="trailing" id="zMP-eF-WZk"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="KhA-gM-Ahc" id="TCL-Ct-aXD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xYd-dL-K1h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -342,6 +355,7 @@
         <image name="iphone6" width="375" height="667"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="GmD-oh-DcB"/>
+        <segue reference="iG2-bV-2hT"/>
+        <segue reference="13T-Yo-JaM"/>
     </inferredMetricsTieBreakers>
 </document>
