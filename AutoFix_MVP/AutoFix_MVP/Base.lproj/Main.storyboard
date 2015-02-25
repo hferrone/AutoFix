@@ -302,20 +302,19 @@
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Auto_Fix_TireBar" translatesAutoresizingMaskIntoConstraints="NO" id="sXj-vb-fhV">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="QZp-ug-vLg"/>
+                                </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Auto_Fix_TireBar" translatesAutoresizingMaskIntoConstraints="NO" id="fV1-Lw-Sjg">
                                 <rect key="frame" x="0.0" y="515" width="600" height="85"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="85" id="HwR-fL-F3W"/>
+                                    <constraint firstAttribute="height" constant="85" id="aXN-KY-Gea"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KhA-gM-Ahc">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KhA-gM-Ahc">
                                 <rect key="frame" x="16" y="25" width="45" height="35"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.25" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="45" id="BHL-0f-q9i"/>
-                                    <constraint firstAttribute="height" constant="35" id="s8H-46-YJI"/>
-                                </constraints>
                                 <state key="normal" image="OGbackarrowICON">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -323,63 +322,23 @@
                                     <segue destination="iqx-0T-o05" kind="show" id="13T-Yo-JaM"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HarrisonPipBoy" translatesAutoresizingMaskIntoConstraints="NO" id="Ztz-Jv-AbX">
-                                <rect key="frame" x="16" y="308" width="69" height="125"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="125" id="DnA-Oj-220"/>
-                                    <constraint firstAttribute="width" constant="69" id="LgL-WA-AXq"/>
-                                </constraints>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIX-Yk-pxw">
-                                <rect key="frame" x="16" y="167" width="568" height="165"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="165" id="Ldn-Pb-8o0"/>
-                                </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="47R-N0-Oef">
-                                <rect key="frame" x="93" y="340" width="491" height="62"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="62" id="5I9-Pj-lGg"/>
-                                </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="sXj-vb-fhV" firstAttribute="centerY" secondItem="KhA-gM-Ahc" secondAttribute="centerY" id="CmQ-Hh-bAe"/>
-                            <constraint firstItem="KhA-gM-Ahc" firstAttribute="top" secondItem="AtI-SI-1Zl" secondAttribute="bottom" constant="5" id="Dia-uX-bQL"/>
-                            <constraint firstItem="UMt-Hg-Veo" firstAttribute="leading" secondItem="zxs-5f-Y67" secondAttribute="leading" id="EkQ-bU-KxG"/>
-                            <constraint firstItem="UMt-Hg-Veo" firstAttribute="leading" secondItem="fV1-Lw-Sjg" secondAttribute="leading" id="Hdu-0C-znw"/>
-                            <constraint firstAttribute="trailing" secondItem="sXj-vb-fhV" secondAttribute="trailing" id="OZO-sO-6Dh"/>
-                            <constraint firstItem="fV1-Lw-Sjg" firstAttribute="trailing" secondItem="UMt-Hg-Veo" secondAttribute="trailing" id="Rlf-IR-CdK"/>
-                            <constraint firstItem="fV1-Lw-Sjg" firstAttribute="bottom" secondItem="T9J-LI-MAd" secondAttribute="top" id="SM0-AX-fMN"/>
-                            <constraint firstItem="UMt-Hg-Veo" firstAttribute="bottom" secondItem="T9J-LI-MAd" secondAttribute="top" id="SM3-w3-4ug"/>
-                            <constraint firstItem="sXj-vb-fhV" firstAttribute="trailing" secondItem="UMt-Hg-Veo" secondAttribute="trailing" id="Via-bl-NB2"/>
-                            <constraint firstItem="Ztz-Jv-AbX" firstAttribute="leading" secondItem="mIX-Yk-pxw" secondAttribute="leading" id="Y5j-ws-2dI"/>
-                            <constraint firstItem="47R-N0-Oef" firstAttribute="trailing" secondItem="mIX-Yk-pxw" secondAttribute="trailing" id="ZLQ-jR-X1n"/>
-                            <constraint firstItem="mIX-Yk-pxw" firstAttribute="top" secondItem="sXj-vb-fhV" secondAttribute="bottom" constant="82" id="aGG-Mi-1va"/>
-                            <constraint firstItem="47R-N0-Oef" firstAttribute="leading" secondItem="Ztz-Jv-AbX" secondAttribute="trailing" constant="8" symbolic="YES" id="dlM-0y-NgP"/>
-                            <constraint firstItem="47R-N0-Oef" firstAttribute="top" secondItem="mIX-Yk-pxw" secondAttribute="bottom" constant="8" symbolic="YES" id="lqb-gv-ROK"/>
-                            <constraint firstItem="fV1-Lw-Sjg" firstAttribute="top" secondItem="Ztz-Jv-AbX" secondAttribute="bottom" constant="82" id="ndA-am-PP8"/>
-                            <constraint firstItem="mIX-Yk-pxw" firstAttribute="leading" secondItem="zxs-5f-Y67" secondAttribute="leadingMargin" id="oUZ-87-DTi"/>
-                            <constraint firstItem="sXj-vb-fhV" firstAttribute="centerX" secondItem="mIX-Yk-pxw" secondAttribute="centerX" id="pis-M5-OpR"/>
-                            <constraint firstItem="UMt-Hg-Veo" firstAttribute="top" secondItem="zxs-5f-Y67" secondAttribute="top" id="pud-LK-ZMe"/>
-                            <constraint firstItem="UMt-Hg-Veo" firstAttribute="top" secondItem="sXj-vb-fhV" secondAttribute="top" id="sw0-4v-IqQ"/>
-                            <constraint firstItem="mIX-Yk-pxw" firstAttribute="leading" secondItem="KhA-gM-Ahc" secondAttribute="leading" id="zJd-Kc-4eO"/>
-                            <constraint firstItem="sXj-vb-fhV" firstAttribute="leading" secondItem="UMt-Hg-Veo" secondAttribute="leading" id="zQK-k4-uRw"/>
+                            <constraint firstItem="sXj-vb-fhV" firstAttribute="trailing" secondItem="UMt-Hg-Veo" secondAttribute="trailing" id="4g5-i8-iC5"/>
+                            <constraint firstItem="UMt-Hg-Veo" firstAttribute="leading" secondItem="zxs-5f-Y67" secondAttribute="leading" id="4kV-gP-Uql"/>
+                            <constraint firstItem="sXj-vb-fhV" firstAttribute="top" secondItem="zxs-5f-Y67" secondAttribute="top" id="5hT-Ro-QPP"/>
+                            <constraint firstItem="UMt-Hg-Veo" firstAttribute="leading" secondItem="sXj-vb-fhV" secondAttribute="leading" id="AX2-I3-pJg"/>
+                            <constraint firstItem="UMt-Hg-Veo" firstAttribute="top" secondItem="sXj-vb-fhV" secondAttribute="top" id="CZr-yu-Np7"/>
+                            <constraint firstItem="fV1-Lw-Sjg" firstAttribute="leading" secondItem="sXj-vb-fhV" secondAttribute="leading" id="NZQ-j5-aXx"/>
+                            <constraint firstItem="UMt-Hg-Veo" firstAttribute="bottom" secondItem="T9J-LI-MAd" secondAttribute="top" id="OiB-dq-dYw"/>
+                            <constraint firstItem="UMt-Hg-Veo" firstAttribute="trailing" secondItem="fV1-Lw-Sjg" secondAttribute="trailing" id="d8a-uX-mTO"/>
+                            <constraint firstItem="fV1-Lw-Sjg" firstAttribute="bottom" secondItem="T9J-LI-MAd" secondAttribute="top" id="sWf-y9-bdi"/>
+                            <constraint firstAttribute="trailing" secondItem="fV1-Lw-Sjg" secondAttribute="trailing" id="zMP-eF-WZk"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="backButton" destination="KhA-gM-Ahc" id="TCL-Ct-aXD"/>
-                        <outlet property="descriptionTextView" destination="mIX-Yk-pxw" id="Syy-n3-6op"/>
-                        <outlet property="protipTextView" destination="47R-N0-Oef" id="HVv-xh-eWA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xYd-dL-K1h" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -389,7 +348,6 @@
     </scenes>
     <resources>
         <image name="Auto_Fix_TireBar" width="375" height="79"/>
-        <image name="HarrisonPipBoy" width="128" height="280"/>
         <image name="Harrison_Logo" width="1238" height="222"/>
         <image name="Harrison_Pipe" width="729" height="729"/>
         <image name="Harrison_Spark" width="683" height="700"/>

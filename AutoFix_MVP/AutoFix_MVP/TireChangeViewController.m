@@ -11,7 +11,6 @@
 #import "TireDetailViewController.h"
 
 @interface TireChangeViewController () <UITableViewDataSource, UITableViewDelegate>
-
 @property (weak, nonatomic) IBOutlet UITableView *tireChangeTableviewController;
 @property (weak, nonatomic) IBOutlet UIButton *backButton;
 
@@ -78,10 +77,10 @@
         NSAttributedString *attrText = [[NSAttributedString alloc] initWithString:stepText attributes:attributes];
         
         cell.textLabel.attributedText = attrText;
-        //cell.accessoryType = UITableViewCellAccessoryCheckmark;
+        cell.accessoryType = UITableViewCellAccessoryCheckmark;
         cell.textLabel.textColor = [UIColor whiteColor];
     }
-
+    
     return cell;
 }
 
@@ -100,8 +99,6 @@
         selectedStep.hasBeenCompleted = YES;
         detailViewController.selectedStep = selectedStep;
     }
-    
-    [self.tireChangeTableviewController reloadData];
 }
 
 @end
