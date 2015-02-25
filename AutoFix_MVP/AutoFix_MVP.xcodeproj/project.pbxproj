@@ -16,6 +16,8 @@
 		4A58839B1A9E679600FBFC84 /* WaiverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A58839A1A9E679600FBFC84 /* WaiverViewController.m */; };
 		4A58839E1A9E6DFD00FBFC84 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A58839D1A9E6DFD00FBFC84 /* MainMenuViewController.m */; };
 		4A5883A11A9E743700FBFC84 /* TireChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5883A01A9E743700FBFC84 /* TireChangeViewController.m */; };
+		4A5883A71A9E76AB00FBFC84 /* CustomInstructions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5883A61A9E76AB00FBFC84 /* CustomInstructions.m */; };
+		4A5883AA1A9E78FE00FBFC84 /* TireDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5883A91A9E78FE00FBFC84 /* TireDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,10 @@
 		4A58839D1A9E6DFD00FBFC84 /* MainMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuViewController.m; sourceTree = "<group>"; };
 		4A58839F1A9E743700FBFC84 /* TireChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TireChangeViewController.h; sourceTree = "<group>"; };
 		4A5883A01A9E743700FBFC84 /* TireChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TireChangeViewController.m; sourceTree = "<group>"; };
+		4A5883A51A9E76AB00FBFC84 /* CustomInstructions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomInstructions.h; sourceTree = "<group>"; };
+		4A5883A61A9E76AB00FBFC84 /* CustomInstructions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomInstructions.m; sourceTree = "<group>"; };
+		4A5883A81A9E78FE00FBFC84 /* TireDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TireDetailViewController.h; sourceTree = "<group>"; };
+		4A5883A91A9E78FE00FBFC84 /* TireDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TireDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,10 @@
 				4A58839D1A9E6DFD00FBFC84 /* MainMenuViewController.m */,
 				4A58839F1A9E743700FBFC84 /* TireChangeViewController.h */,
 				4A5883A01A9E743700FBFC84 /* TireChangeViewController.m */,
+				4A5883A81A9E78FE00FBFC84 /* TireDetailViewController.h */,
+				4A5883A91A9E78FE00FBFC84 /* TireDetailViewController.m */,
+				4A5883A51A9E76AB00FBFC84 /* CustomInstructions.h */,
+				4A5883A61A9E76AB00FBFC84 /* CustomInstructions.m */,
 				4A58837D1A9E677B00FBFC84 /* Main.storyboard */,
 				4A5883801A9E677B00FBFC84 /* Images.xcassets */,
 				4A5883821A9E677B00FBFC84 /* LaunchScreen.xib */,
@@ -230,9 +240,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A5883AA1A9E78FE00FBFC84 /* TireDetailViewController.m in Sources */,
 				4A5883A11A9E743700FBFC84 /* TireChangeViewController.m in Sources */,
 				4A58839E1A9E6DFD00FBFC84 /* MainMenuViewController.m in Sources */,
 				4A5883791A9E677B00FBFC84 /* AppDelegate.m in Sources */,
+				4A5883A71A9E76AB00FBFC84 /* CustomInstructions.m in Sources */,
 				4A58839B1A9E679600FBFC84 /* WaiverViewController.m in Sources */,
 				4A5883761A9E677B00FBFC84 /* main.m in Sources */,
 			);
