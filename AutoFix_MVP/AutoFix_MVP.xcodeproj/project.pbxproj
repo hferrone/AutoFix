@@ -441,6 +441,7 @@
 				4A5883951A9E677B00FBFC84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A5883961A9E677B00FBFC84 /* Build configuration list for PBXNativeTarget "AutoFix_MVPTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +450,7 @@
 				4A5883981A9E677B00FBFC84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

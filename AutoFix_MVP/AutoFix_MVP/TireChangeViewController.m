@@ -51,6 +51,11 @@
     self.instructionStepArray = @[step1, step2, step3, step4, step5, step6, step7, step8, step9, step10];
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    [self.tireChangeTableviewController reloadData];
+}
+
 -(BOOL)prefersStatusBarHidden
 {
     return YES;
@@ -77,7 +82,6 @@
         NSAttributedString *attrText = [[NSAttributedString alloc] initWithString:stepText attributes:attributes];
         
         cell.textLabel.attributedText = attrText;
-        cell.accessoryType = UITableViewCellAccessoryCheckmark;
         cell.textLabel.textColor = [UIColor whiteColor];
     }
     
@@ -91,14 +95,11 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    if([segue.identifier isEqualToString:@"detailSegueID"])
-    {
-        TireDetailViewController *detailViewController = segue.destinationViewController;
-        NSIndexPath *currentPath = [self.tireChangeTableviewController indexPathForSelectedRow];
-        CustomInstructions *selectedStep = [self.instructionStepArray objectAtIndex:currentPath.row];
-        selectedStep.hasBeenCompleted = YES;
-        detailViewController.selectedStep = selectedStep;
-    }
+    TireDetailViewController *detailViewController = segue.destinationViewController;
+    NSIndexPath *currentPath = [self.tireChangeTableviewController indexPathForSelectedRow];
+    CustomInstructions *selectedStep = [self.instructionStepArray objectAtIndex:currentPath.row];
+    selectedStep.hasBeenCompleted = YES;
+    detailViewController.selectedStep = selectedStep;
 }
 
 @end
