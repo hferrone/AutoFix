@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A46927B1A9FA5750038D735 /* JumpCarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A46927A1A9FA5750038D735 /* JumpCarViewController.m */; };
+		4A46927E1A9FA5810038D735 /* JumpDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A46927D1A9FA5810038D735 /* JumpDetailViewController.m */; };
 		4A5883761A9E677B00FBFC84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5883751A9E677B00FBFC84 /* main.m */; };
 		4A5883791A9E677B00FBFC84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5883781A9E677B00FBFC84 /* AppDelegate.m */; };
 		4A58837F1A9E677B00FBFC84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A58837D1A9E677B00FBFC84 /* Main.storyboard */; };
@@ -31,6 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A4692791A9FA5750038D735 /* JumpCarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpCarViewController.h; sourceTree = "<group>"; };
+		4A46927A1A9FA5750038D735 /* JumpCarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpCarViewController.m; sourceTree = "<group>"; };
+		4A46927C1A9FA5810038D735 /* JumpDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpDetailViewController.h; sourceTree = "<group>"; };
+		4A46927D1A9FA5810038D735 /* JumpDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpDetailViewController.m; sourceTree = "<group>"; };
 		4A5883701A9E677B00FBFC84 /* AutoFix_MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoFix_MVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5883741A9E677B00FBFC84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A5883751A9E677B00FBFC84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,6 +111,10 @@
 				4A5883A91A9E78FE00FBFC84 /* TireDetailViewController.m */,
 				4A5883A51A9E76AB00FBFC84 /* CustomInstructions.h */,
 				4A5883A61A9E76AB00FBFC84 /* CustomInstructions.m */,
+				4A4692791A9FA5750038D735 /* JumpCarViewController.h */,
+				4A46927A1A9FA5750038D735 /* JumpCarViewController.m */,
+				4A46927C1A9FA5810038D735 /* JumpDetailViewController.h */,
+				4A46927D1A9FA5810038D735 /* JumpDetailViewController.m */,
 				4A58837D1A9E677B00FBFC84 /* Main.storyboard */,
 				4A5883801A9E677B00FBFC84 /* Images.xcassets */,
 				4A5883821A9E677B00FBFC84 /* LaunchScreen.xib */,
@@ -242,7 +252,9 @@
 			files = (
 				4A5883AA1A9E78FE00FBFC84 /* TireDetailViewController.m in Sources */,
 				4A5883A11A9E743700FBFC84 /* TireChangeViewController.m in Sources */,
+				4A46927E1A9FA5810038D735 /* JumpDetailViewController.m in Sources */,
 				4A58839E1A9E6DFD00FBFC84 /* MainMenuViewController.m in Sources */,
+				4A46927B1A9FA5750038D735 /* JumpCarViewController.m in Sources */,
 				4A5883791A9E677B00FBFC84 /* AppDelegate.m in Sources */,
 				4A5883A71A9E76AB00FBFC84 /* CustomInstructions.m in Sources */,
 				4A58839B1A9E679600FBFC84 /* WaiverViewController.m in Sources */,

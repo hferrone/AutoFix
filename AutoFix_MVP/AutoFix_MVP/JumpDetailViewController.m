@@ -1,21 +1,21 @@
 //
-//  TireDetailViewController.m
+//  JumpDetailViewController.m
 //  AutoFix_MVP
 //
-//  Created by Harrison Ferrone on 2/25/15.
+//  Created by Harrison Ferrone on 2/26/15.
 //  Copyright (c) 2015 Harrison Ferrone. All rights reserved.
 //
 
-#import "TireDetailViewController.h"
+#import "JumpDetailViewController.h"
 
-@interface TireDetailViewController ()
+@interface JumpDetailViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextView *descriptionTextView;
 @property (weak, nonatomic) IBOutlet UITextView *protipTextView;
 
 @end
 
-@implementation TireDetailViewController
+@implementation JumpDetailViewController
 
 - (void)viewDidLoad
 {

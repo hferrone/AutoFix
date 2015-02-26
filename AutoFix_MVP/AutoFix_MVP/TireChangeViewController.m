@@ -27,7 +27,7 @@
     self.backButton.layer.borderColor = [UIColor whiteColor].CGColor;
     self.backButton.layer.borderWidth = 1;
     self.backButton.layer.cornerRadius = 5;
-    
+        
     CustomInstructions *step1 = [[CustomInstructions alloc] initWithDescription:@"1. Locate the vehicle in a safe location for the tire change process (ie on the shoulder, side street, or parking lot)\n\n- Automatic Transmissions: place car in PARK and engage parking break\n\n- Manual Transmissions: place car in 1st gear and engage parking break" title:@"Step 1: Securing the car safely" tip:@"* PRO TIP: The location of the car must be as level and flat as possible"];
     
     CustomInstructions *step2 = [[CustomInstructions alloc] initWithDescription:@"1. Turn on four-way flashers and hazard lights.\n\n2. Block (wheel choke) the opposite wheel from the one you are changing the tire on.\n\n3. Remove spare tire, jack and lug wrench from your vehicle." title:@"Step 2: Caution lights" tip:@"* PRO TIP: Place all your equipment on the ground in a location that doesn't interfere with this process"];
